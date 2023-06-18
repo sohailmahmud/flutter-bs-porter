@@ -7,11 +7,11 @@ This is simple Flutter app that when it's opened it will show a screen with a co
 
 These are the techniques used by this project to keep Flutter running:
 
-Use of moveTaskToBack to survive when back button is pressed.
+Use of ==moveTaskToBack== to survive when back button is pressed.
 Creation of a foreground service to increase process priority.
 Start and stop a new Isolate to run Dart background code when FlutterActivity is destroyed.
 
 ## How to run the project
-Follow Get Started tutorial and install Flutter
-Start and Android emulator
-Run the app from terminal with flutter run
+- Follow Get Started tutorial and install Flutter
+- Start and Android emulator
+- Run the app from ==terminal== with flutter ==run==
